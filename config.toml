@@ -1,0 +1,45 @@
+baseURL = 'https://berlin.freifunk.net/'
+languageCode = 'de-de'
+title = 'Freifunk Berlin'
+theme="freifunk.net"
+
+#[markup]
+#  [markup.goldmark]
+#    [markup.goldmark.renderer]
+#      unsafe = true
+
+[menu]
+  [[menu.main]]
+    name = "Info"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Mitmachen"
+    url = "/participate/overview/"
+    weight = 2
+  [[menu.main]]
+    name = "Netzkarte"
+    url = "/network/map/"
+    weight = 3
+  [[menu.main]]
+    name = "Wiki"
+    url = "/wiki"
+    weight = 4
+  [[menu.main]]
+    name = "Downloads"
+    url = "/downloads"
+    weight = 5
+  [[menu.main]]
+    # TODO: External Link...
+    name = "FAQ"
+    url = "https://wiki.freifunk.net/Berlin:FAQ"
+    weight = 6
+  [[menu.main]]
+    name = "Kontakt"
+    url = "/contact"
+    weight = 7
+  [[menu.main]]
+  # TODO: External Link...
+    name = "freifunk.net"
+    url = "https://www.freifunk.net"
+    weight = 8
